@@ -1,0 +1,421 @@
+[master (root-commit) d36380c] Make IRCclient
+ 19 files changed, 1325 insertions(+)
+ create mode 100644 .gui.c.swp
+ create mode 100644 .local.git.out
+ create mode 100644 Makefile
+ create mode 100755 TestIRCServer
+ create mode 100644 TestIRCServer.c
+ create mode 100755 entry
+ create mode 100644 entry.c
+ create mode 100755 gui
+ create mode 100644 gui.c
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 panned
+ create mode 100644 panned.c
+ create mode 100755 radio
+ create mode 100644 radio.c
+ create mode 100755 talk-client
+ create mode 100644 talk-client.c
+ create mode 100755 timer
+ create mode 100644 timer.c
+[master e658d19] Make IRCclient
+ 5 files changed, 34 insertions(+), 1 deletion(-)
+ create mode 100644 gui.h
+[master 3dbcc12] Make IRCclient
+ 4 files changed, 19 insertions(+), 8 deletions(-)
+ rewrite gui (87%)
+[master 2bb2928] Make IRCclient
+ 5 files changed, 11 insertions(+), 6 deletions(-)
+[master 4ed8430] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 5775d52] Make IRCclient
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+ rewrite gui (62%)
+[master 84d4858] Make IRCclient
+ 5 files changed, 5 insertions(+), 2 deletions(-)
+[master 86749fe] Make IRCclient
+ 5 files changed, 7 insertions(+), 4 deletions(-)
+[master adebbe1] Make IRCclient
+ 4 files changed, 5 insertions(+), 3 deletions(-)
+[master 772e551] Make IRCclient
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+ rewrite gui (62%)
+[master 8f42a83] Make IRCclient
+ 4 files changed, 5 insertions(+)
+[master 8564361] Make IRCclient
+ 4 files changed, 7 insertions(+), 1 deletion(-)
+[master 2fe9790] Make IRCclient
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+ rewrite gui (83%)
+[master 310926c] Make IRCclient
+ 4 files changed, 5 insertions(+), 4 deletions(-)
+[master 485e440] Make IRCclient
+ 4 files changed, 8 insertions(+), 3 deletions(-)
+[master 00cdb38] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master 759a2e3] Make IRCclient
+ 4 files changed, 6 insertions(+), 4 deletions(-)
+ rewrite gui (74%)
+[master e294889] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 10af01b] Make IRCclient
+ 5 files changed, 7 insertions(+), 5 deletions(-)
+[master 09e7e51] Make IRCclient
+ 4 files changed, 8 insertions(+), 6 deletions(-)
+[master 8aea784] Make IRCclient
+ 4 files changed, 94 insertions(+), 1 deletion(-)
+ rewrite .gui.c.swp (66%)
+ rewrite gui (92%)
+[master 60808de] Make IRCclient
+ 3 files changed, 6 insertions(+), 2 deletions(-)
+[master 3529938] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master e45e567] Make IRCclient
+ 5 files changed, 16 insertions(+), 1 deletion(-)
+ rewrite gui (74%)
+[master 830bef1] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 8495e9b] Make IRCclient
+ 5 files changed, 42 insertions(+), 1 deletion(-)
+ rewrite gui (65%)
+[master b4f10ac] Make IRCclient
+ 4 files changed, 9 insertions(+)
+[master b965852] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 2c58c34] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master 6119947] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master 1623d46] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master a8bf560] Make IRCclient
+ 4 files changed, 5 insertions(+), 3 deletions(-)
+[master 65ee494] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 73f6b58] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master caaba52] Make IRCclient
+ 5 files changed, 17 insertions(+), 3 deletions(-)
+ rewrite gui (63%)
+[master f2dbfcb] Make IRCclient
+ 5 files changed, 16 insertions(+)
+ rewrite gui (65%)
+[master d8bb4fa] Make IRCclient
+ 4 files changed, 8 insertions(+), 2 deletions(-)
+ rewrite gui (60%)
+[master e0d26c5] Make IRCclient
+ 5 files changed, 122 insertions(+), 9 deletions(-)
+ rewrite .gui.c.swp (64%)
+ rewrite gui (91%)
+[master 0feebaa] Make IRCclient
+ 5 files changed, 9 insertions(+), 3 deletions(-)
+ delete mode 100644 .gui.c.swp
+ create mode 100644 .gui.h.swp
+ rewrite gui (77%)
+[master d567df6] Make IRCclient
+ 3 files changed, 6 insertions(+), 3 deletions(-)
+[master fda437d] Make IRCclient
+ 3 files changed, 4 insertions(+), 2 deletions(-)
+[master a6037dd] Make IRCclient
+ 6 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 .gui.c.swo
+ create mode 100644 .gui.c.swp
+ delete mode 100644 .gui.h.swp
+[master 7ea349f] Make IRCclient
+ 5 files changed, 8 insertions(+), 1 deletion(-)
+ delete mode 100644 .gui.c.swo
+ create mode 100644 .talk-client.c.swp
+[master 0cf4e16] Make IRCclient
+ 6 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 .gui.c.swp
+ delete mode 100644 .talk-client.c.swp
+ create mode 100644 .timer.c.swp
+[master 56f8674] Make IRCclient
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 100644 .timer.c.swp
+[master d45d997] Make IRCclient
+ 5 files changed, 25 insertions(+), 5 deletions(-)
+ create mode 100644 .timer.c.swp
+ rewrite gui (81%)
+[master f040d25] Make IRCclient
+ 5 files changed, 10 insertions(+)
+ create mode 100644 .talk-client.c.swp
+ delete mode 100644 .timer.c.swp
+[master 74e9ce8] Make IRCclient
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+ create mode 100644 .gui.c.swp
+ delete mode 100644 .talk-client.c.swp
+[master 9e04d0d] Make IRCclient
+ 4 files changed, 25 insertions(+), 122 deletions(-)
+ rewrite gui (85%)
+[master a9b94b4] Make IRCclient
+ 4 files changed, 4 insertions(+), 13 deletions(-)
+[master 37b6504] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master b425ef9] Make IRCclient
+ 4 files changed, 21 insertions(+), 9 deletions(-)
+ rewrite gui (74%)
+[master 5bbfe9f] Make IRCclient
+ 4 files changed, 12 insertions(+), 8 deletions(-)
+[master 9cbc499] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master e53daa7] Make IRCclient
+ 4 files changed, 15 insertions(+), 9 deletions(-)
+[master f297246] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master 257c882] Make IRCclient
+ 4 files changed, 6 insertions(+), 4 deletions(-)
+[master 425467e] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 6e024a1] Make IRCclient
+ 2 files changed, 2 insertions(+)
+[master 9bf2d51] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master ebfb1a0] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 641512a] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 0ca5824] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master 07b11e1] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master edc2461] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master a56d8d4] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 5905373] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master ac3932c] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master fe88d4f] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master b1bf1a8] Make IRCclient
+ 2 files changed, 2 insertions(+)
+ delete mode 100644 .gui.c.swp
+[master 0c87d4d] Make IRCclient
+ 1 file changed, 3 insertions(+)
+[master b585426] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 .gui.c.swp
+[master 59c90fc] Make IRCclient
+ 1 file changed, 3 insertions(+)
+[master 17ec0aa] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master de9fa82] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master cf98bcc] Make IRCclient
+ 4 files changed, 8 insertions(+), 2 deletions(-)
+[master d909d1d] Make IRCclient
+ 4 files changed, 4 insertions(+), 9 deletions(-)
+[master f949e7c] Make IRCclient
+ 4 files changed, 10 insertions(+), 1 deletion(-)
+[master 5d95b9c] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 9a6132e] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 35f03f6] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master a8b163f] Make IRCclient
+ 2 files changed, 2 insertions(+)
+ delete mode 100644 .gui.c.swp
+[master c033a09] Make IRCclient
+ 3 files changed, 4 insertions(+), 1 deletion(-)
+[master d9d08de] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master 7e7f216] Make IRCclient
+ 4 files changed, 3 insertions(+)
+ create mode 100644 .gui.c.swp
+[master 27ed86e] Make IRCclient
+ 2 files changed, 3 insertions(+)
+[master 6d0ac48] Make IRCclient
+ 4 files changed, 3 insertions(+), 2 deletions(-)
+[master f1b3c28] Make IRCclient
+ 4 files changed, 2 insertions(+), 2 deletions(-)
+[master d3a6b14] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 4c969ee] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master e5795d6] Make IRCclient
+ 4 files changed, 8 insertions(+), 3 deletions(-)
+[master 40b5dff] Make IRCclient
+ 4 files changed, 2 insertions(+), 8 deletions(-)
+[master 488a3bd] Make IRCclient
+ 6 files changed, 1133 insertions(+)
+ delete mode 100644 .gui.c.swp
+ create mode 100644 IRCServer.cc
+ create mode 100644 IRCServer.h
+ create mode 100644 linked_list.c
+[master f7f16fe] Make IRCclient
+ 1 file changed, 6 insertions(+)
+[master f3ef747] Make IRCclient
+ 2 files changed, 3 insertions(+)
+[master 84d81f7] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master f21e7f7] Make IRCclient
+ 2 files changed, 37 insertions(+)
+ create mode 100644 linked_list.h
+[master 5033251] Make IRCclient
+ 4 files changed, 20 insertions(+), 14 deletions(-)
+ create mode 100755 IRCServer
+ create mode 100644 password.txt
+[master ffb837e] Make IRCclient
+ 7 files changed, 58 insertions(+), 3 deletions(-)
+ create mode 100644 .gui.c.swp
+ rewrite gui (66%)
+[master ba0fadf] Make IRCclient
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+[master 16a6279] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 5a695e2] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master eb146c3] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 421185d] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 39ea26b] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 9a12208] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master 62ce450] Make IRCclient
+ 4 files changed, 12 insertions(+), 2 deletions(-)
+[master ae0a976] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 87bdec7] Make IRCclient
+ 5 files changed, 19 insertions(+), 5 deletions(-)
+[master 2b9baba] Make IRCclient
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+[master 67fdc40] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master 39fce43] Make IRCclient
+ 5 files changed, 8 insertions(+), 8 deletions(-)
+[master afb0a7c] Make IRCclient
+ 3 files changed, 4 insertions(+), 2 deletions(-)
+[master c6443f4] Make IRCclient
+ 5 files changed, 13 insertions(+), 13 deletions(-)
+[master 2c3941c] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master e205af9] Make IRCclient
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+[master 17dbf86] Make IRCclient
+ 4 files changed, 14 insertions(+), 5 deletions(-)
+[master 6a6c668] Make IRCclient
+ 4 files changed, 6 insertions(+), 5 deletions(-)
+[master 27dcbee] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master d8668f0] Make IRCclient
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+[master b750e73] Make IRCclient
+ 4 files changed, 4 insertions(+)
+[master f541497] Make IRCclient
+ 2 files changed, 2 insertions(+)
+[master 2626b95] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 82bb8d4] Make IRCclient
+ 5 files changed, 5 insertions(+), 26 deletions(-)
+ rewrite gui (62%)
+[master 14bcd09] Make IRCclient
+ 5 files changed, 17 insertions(+), 3 deletions(-)
+[master 2af1c0f] Make IRCclient
+ 5 files changed, 17 insertions(+), 1 deletion(-)
+ rewrite gui (73%)
+[master 48e43f8] Make IRCclient
+ 5 files changed, 13 insertions(+)
+ rewrite gui (63%)
+[master ddb54cd] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master 61c2b12] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 26141e5] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master a860bc0] Make IRCclient
+ 4 files changed, 41 insertions(+), 38 deletions(-)
+[master ce9386b] Make IRCclient
+ 4 files changed, 9 insertions(+), 2 deletions(-)
+ rewrite .gui.c.swp (67%)
+[master 907e807] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 2ab7b80] Make IRCclient
+ 4 files changed, 27 insertions(+), 1 deletion(-)
+ rewrite gui (65%)
+[master 6cb034b] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master eceb76a] Make IRCclient
+ 4 files changed, 49 insertions(+), 8 deletions(-)
+ rewrite gui (68%)
+[master 14e71dc] Make IRCclient
+ 2 files changed, 3 insertions(+)
+[master 48aafd2] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master bc1f696] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 510f2fe] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 575ec15] Make IRCclient
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+[master be805a3] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+[master 10f2b1d] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+[master 4ca5a19] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master 3f0bf08] Make IRCclient
+ 3 files changed, 8 insertions(+), 6 deletions(-)
+[master 3e366d5] Make IRCclient
+ 5 files changed, 7 insertions(+)
+[master f23edb5] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 656094f] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master dbc8c6f] Make IRCclient
+ 4 files changed, 4 insertions(+), 2 deletions(-)
+[master e8886ec] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master c2d9eb1] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master a4a8ce5] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 078d199] Make IRCclient
+ 4 files changed, 15 insertions(+), 6 deletions(-)
+[master 1d4f54f] Make IRCclient
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+[master a0cd13d] Make IRCclient
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+[master fa24bbd] Make IRCclient
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+[master 906d4a6] Make IRCclient
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+[master 5c6db41] Make IRCclient
+ 4 files changed, 5 insertions(+), 3 deletions(-)
+[master cf4d0bb] Make IRCclient
+ 4 files changed, 6 insertions(+), 7 deletions(-)
+[master 8f4331c] Make IRCclient
+ 4 files changed, 6 insertions(+), 4 deletions(-)
+[master ce198a1] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master e0b5296] Make IRCclient
+ 1 file changed, 2 insertions(+)
+[master e7c4f56] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 957f57d] Make IRCclient
+ 4 files changed, 12 insertions(+), 2 deletions(-)
+[master bcea70b] Make IRCclient
+ 5 files changed, 67 insertions(+), 45 deletions(-)
+ rewrite gui (92%)
+[master 83e6529] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master baa2565] Make IRCclient
+ 4 files changed, 18 insertions(+), 10 deletions(-)
+ rewrite gui (81%)
+[master 2d889c9] Make IRCclient
+ 4 files changed, 8 insertions(+), 2 deletions(-)
+[master 49d168e] Make IRCclient
+ 4 files changed, 11 insertions(+)
+[master f25afe7] Make IRCclient
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+[master 6436add] Make IRCclient
+ 4 files changed, 6 insertions(+)
+[master 1c9eb44] Make IRCclient
+ 4 files changed, 19 insertions(+), 7 deletions(-)
+[master 47dde59] Make IRCclient
+ 4 files changed, 4 insertions(+)

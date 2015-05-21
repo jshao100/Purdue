@@ -1,0 +1,237 @@
+[master (root-commit) 82facc2] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 35 files changed, 986 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 Makefile
+ create mode 100755 check-strfunc.sh
+ create mode 100644 cosmos.txt
+ create mode 100755 countwords
+ create mode 100644 countwords.c
+ create mode 100755 countwords.org
+ create mode 100644 countwords.org.out
+ create mode 100644 countwords.out
+ create mode 100644 diff.out
+ create mode 100755 isbalanced
+ create mode 100644 isbalanced.c
+ create mode 100755 isbalanced.org
+ create mode 100644 isbalanced.org.out
+ create mode 100644 isbalanced.out
+ create mode 100644 mystring.c
+ create mode 100644 mystring.o
+ create mode 100644 none
+ create mode 100644 slist.c
+ create mode 100644 slist.h
+ create mode 100644 test.txt
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 test_slist
+ create mode 100644 test_slist.c
+ create mode 100755 test_slist.org
+ create mode 100644 test_slist.org.out
+ create mode 100644 test_slist.out
+ create mode 100755 testall
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master 704d3ec] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 52 insertions(+), 1 deletion(-)
+[master 13c5f4e] 0 of 100
+ 7 files changed, 17 insertions(+), 1 deletion(-)
+[master 6b7a5eb] 35 of 100
+ 11 files changed, 153 insertions(+), 24 deletions(-)
+ rewrite isbalanced (76%)
+ rewrite mystring.o (95%)
+ rewrite test_mystring (72%)
+[master b039fdb] 35 of 140
+ 20 files changed, 526 insertions(+), 154 deletions(-)
+ create mode 100644 bits.c
+ create mode 100644 bits.h
+ rewrite diff.out (100%)
+ create mode 100644 mysort.c
+ create mode 100644 mysort.h
+ create mode 100755 test_bits
+ create mode 100644 test_bits.c
+ create mode 100755 test_bits.org
+ create mode 100644 test_bits.org.out
+ create mode 100644 test_bits.out
+ create mode 100755 test_mysort
+ create mode 100644 test_mysort.c
+ create mode 100755 test_mysort.org
+ create mode 100644 test_mysort.org.out
+ create mode 100644 test_mysort.out
+[master 434dc8c] 35 of 140
+ 7 files changed, 37 insertions(+), 31 deletions(-)
+[master fa862dc] 35 of 140
+ 8 files changed, 10 insertions(+), 5 deletions(-)
+ rewrite mystring.o (71%)
+[master 6580216] 35 of 140
+ 8 files changed, 11 insertions(+), 5 deletions(-)
+[master ac56a56] 35 of 140
+ 8 files changed, 19 insertions(+), 14 deletions(-)
+ rewrite mystring.o (77%)
+[master ba9e538] 35 of 140
+ 8 files changed, 24 insertions(+), 23 deletions(-)
+ rewrite mystring.o (82%)
+ rewrite test_mystring (68%)
+[master dcedcac] 40 of 140
+ 9 files changed, 15 insertions(+), 9 deletions(-)
+ rewrite mystring.o (67%)
+[master 3e96efa] 50 of 140
+ 10 files changed, 46 insertions(+), 34 deletions(-)
+ rewrite mystring.o (100%)
+ rewrite test_mystring (74%)
+[master e072f4d] 50 of 140
+ 6 files changed, 18 insertions(+), 5 deletions(-)
+[master 1cf464e] 50 of 140
+ 6 files changed, 10 insertions(+), 5 deletions(-)
+[master b97d257] 50 of 140
+ 6 files changed, 11 insertions(+), 9 deletions(-)
+[master c8c418b] 50 of 140
+ 7 files changed, 15 insertions(+), 7 deletions(-)
+ create mode 100755 bits
+[master 4aac55b] 50 of 140
+ 7 files changed, 10 insertions(+), 9 deletions(-)
+ delete mode 100755 bits
+[master 9a84101] 55 of 140
+ 8 files changed, 28 insertions(+), 6 deletions(-)
+ rewrite test_slist (61%)
+[master 8c61d69] 60 of 140
+ 8 files changed, 26 insertions(+), 6 deletions(-)
+[master e79a088] 65 of 140
+ 8 files changed, 21 insertions(+), 6 deletions(-)
+[master f727433] 65 of 140
+ 9 files changed, 50 insertions(+), 6 deletions(-)
+ create mode 100644 .test_slist.c.swp
+[master 12efc25] 65 of 140
+ 7 files changed, 12 insertions(+), 5 deletions(-)
+[master 6e31799] 65 of 140
+ 7 files changed, 16 insertions(+), 16 deletions(-)
+[master c22bcea] 65 of 140
+ 9 files changed, 18 insertions(+), 9 deletions(-)
+ rename .test_slist.c.swp => .slist.c.swp (69%)
+[master 6a5f329] 65 of 140
+ 9 files changed, 19 insertions(+), 7 deletions(-)
+[master 60c6610] 75 of 140
+ 10 files changed, 23 insertions(+), 9 deletions(-)
+[master 810cd1e] 75 of 140
+ 6 files changed, 9 insertions(+), 5 deletions(-)
+ delete mode 100644 .slist.c.swp
+[master e1fc48c] 75 of 140
+ 5 files changed, 10 insertions(+), 5 deletions(-)
+[master bdeb3fb] 75 of 140
+ 9 files changed, 13 insertions(+), 8 deletions(-)
+ create mode 100644 .test_mystring.c.swp
+[master 371cd7b] 75 of 140
+ 7 files changed, 13 insertions(+), 5 deletions(-)
+ rename .test_mystring.c.swp => .bits.c.swp (72%)
+[master 052e89a] 75 of 140
+ 9 files changed, 15 insertions(+), 6 deletions(-)
+ delete mode 100644 .bits.c.swp
+[master ae489a8] 75 of 140
+ 8 files changed, 31 insertions(+), 18 deletions(-)
+ create mode 100644 .bits.c.swp
+ rewrite diff.out (67%)
+ rewrite test_bits (63%)
+[master 13ccd0e] 75 of 140
+ 7 files changed, 13 insertions(+), 6 deletions(-)
+[master 959961f] 79 of 140
+ 9 files changed, 15 insertions(+), 15 deletions(-)
+[master ed7d8b7] 79 of 140
+ 8 files changed, 14 insertions(+), 6 deletions(-)
+[master e574b76] 83 of 140
+ 10 files changed, 22 insertions(+), 13 deletions(-)
+ rewrite test_bits (70%)
+[master 1efdebe] 83 of 140
+ 8 files changed, 12 insertions(+), 5 deletions(-)
+[master b12f53b] 83 of 140
+ 8 files changed, 16 insertions(+), 6 deletions(-)
+[master 2e157ae] 91 of 140
+ 9 files changed, 12 insertions(+), 8 deletions(-)
+[master 1feffaa] 95 of 140
+ 9 files changed, 25 insertions(+), 12 deletions(-)
+[master 3268229] 95 of 140
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 .bits.c.swp
+[master 41426c9] 95 of 140
+ 6 files changed, 67 insertions(+), 9 deletions(-)
+ rewrite countwords (90%)
+[master 43d88a3] 95 of 140
+ 9 files changed, 35 insertions(+), 7 deletions(-)
+ create mode 100644 .mysort.c.swp
+ rewrite test_mysort (74%)
+[master b1ee6b5] 99 of 140
+ 8 files changed, 9 insertions(+), 18 deletions(-)
+[master 3e2fd49] 111 of 140
+ 8 files changed, 26 insertions(+), 6 deletions(-)
+[master c6ab182] 115 of 140
+ 7 files changed, 13 insertions(+), 5 deletions(-)
+ rename .mysort.c.swp => .test_mysort.c.swp (51%)
+[master 1d955d3] 125 of 140
+ 7 files changed, 37 insertions(+), 21 deletions(-)
+ delete mode 100644 .test_mysort.c.swp
+ rewrite countwords (66%)
+[master b068c96] 125 of 140
+ 5 files changed, 11 insertions(+), 5 deletions(-)
+[master e48d714] 115 of 140
+ 6 files changed, 12 insertions(+), 6 deletions(-)
+[master f85d3eb] 125 of 140
+ 6 files changed, 7 insertions(+), 3 deletions(-)
+[master 3e9478b] 125 of 140
+ 4 files changed, 8 insertions(+), 1 deletion(-)
+ create mode 100644 test2.txt
+[master 0b05b15] 125 of 140
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+[master d4c93ad] 125 of 140
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+ create mode 100644 .countwords.c.swp
+[master 64aee85] 125 of 140
+ 7 files changed, 9 insertions(+), 2 deletions(-)
+ rename .countwords.c.swp => .cosmos2.txt.swp (75%)
+ create mode 100644 cosmos2.txt
+[master 9cd8222] 125 of 140
+ 7 files changed, 39 insertions(+), 12 deletions(-)
+ rename .cosmos2.txt.swp => .countwords.c.swp (69%)
+ delete mode 100644 cosmos2.txt
+ rewrite countwords (64%)
+[master 205694a] 115 of 140
+ 7 files changed, 11 insertions(+), 7 deletions(-)
+ delete mode 100644 .countwords.c.swp
+[master 7da0ff0] 125 of 140
+ 6 files changed, 8 insertions(+), 3 deletions(-)
+ rewrite countwords (65%)
+[master bd65373] 125 of 140
+ 6 files changed, 92 insertions(+), 2 deletions(-)
+[master 7242316] 125 of 140
+ 6 files changed, 164 insertions(+), 87 deletions(-)
+ rewrite countwords.out (88%)
+[master b03eb48] 125 of 140
+ 7 files changed, 13 insertions(+), 19 deletions(-)
+ create mode 100644 .countwords.c.swp
+[master f433c32] 125 of 140
+ 7 files changed, 19 insertions(+), 8 deletions(-)

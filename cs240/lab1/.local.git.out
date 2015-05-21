@@ -1,0 +1,15 @@
+[master 28464da] 0 of 100
+ 12 files changed, 49 insertions(+), 4 deletions(-)
+ create mode 100644 .high-low.c.swp
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 add.o
+ create mode 100755 exp
+ create mode 100644 exp_short.o
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 high-low
+ create mode 100644 total.out
+[master 70a0461] 0 of 100
+ 5 files changed, 43 insertions(+), 3 deletions(-)
+ rewrite high-low (72%)

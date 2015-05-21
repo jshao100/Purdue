@@ -1,0 +1,319 @@
+[master (root-commit) e831346] 9 of 72
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 42 files changed, 1515 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 LinkedList.c
+ create mode 100644 LinkedList.h
+ create mode 100644 Makefile
+ create mode 100644 array.c
+ create mode 100644 array.h
+ create mode 100755 check-array.sh
+ create mode 100755 check-strfunc.sh
+ create mode 100644 cosmos.txt
+ create mode 100644 diff.out
+ create mode 100644 hamlet-long.txt
+ create mode 100644 hamlet-short.txt
+ create mode 100644 hamlet.txt
+ create mode 100644 mystring.c
+ create mode 100644 mystring.h
+ create mode 100644 mystring.o
+ create mode 100644 mytable.ll
+ create mode 100644 none
+ create mode 100755 ptr-simple
+ create mode 100644 ptr-simple.c
+ create mode 100755 simple_list
+ create mode 100644 simple_list.c
+ create mode 100644 table1.ll
+ create mode 100755 test_array
+ create mode 100644 test_array.c
+ create mode 100755 test_array.org
+ create mode 100644 test_array.org.out
+ create mode 100644 test_array.out
+ create mode 100755 test_linked_list
+ create mode 100644 test_linked_list.c
+ create mode 100755 test_linked_list.org
+ create mode 100644 test_linked_list.org.out
+ create mode 100644 test_linked_list.out
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 testall
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master 97160d0] 9 of 72
+ 9 files changed, 60 insertions(+), 2 deletions(-)
+[master 96219ac] -2 of 72
+ 8 files changed, 29 insertions(+), 8 deletions(-)
+ rewrite mystring.o (86%)
+[master 9a3f2c7] 10 of 72
+ 8 files changed, 99 insertions(+), 14 deletions(-)
+ rewrite mystring.o (84%)
+ rewrite test_mystring (77%)
+[master 8f4a571] 13 of 72
+ 7 files changed, 19 insertions(+), 3 deletions(-)
+ create mode 100644 .array.c.swp
+ rewrite test_array (76%)
+[master f197597] 16 of 72
+ 7 files changed, 19 insertions(+), 3 deletions(-)
+[master 7dff853] 16 of 72
+ 6 files changed, 19 insertions(+), 2 deletions(-)
+[master 5c99a26] 16 of 72
+ 6 files changed, 6 insertions(+), 1 deletion(-)
+[master 1242781] 16 of 72
+ 6 files changed, 6 insertions(+), 2 deletions(-)
+[master 7db1832] 16 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master 9a8e67e] 16 of 72
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master cd0dc5d] 16 of 72
+ 6 files changed, 8 insertions(+), 1 deletion(-)
+ delete mode 100644 .array.c.swp
+[master b7035b8] 16 of 72
+ 7 files changed, 40 insertions(+), 1 deletion(-)
+ create mode 100644 .array.c.swp
+[master 420a574] 19 of 72
+ 8 files changed, 40 insertions(+), 27 deletions(-)
+[master c59adea] 19 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master f06eadc] 19 of 72
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+ rewrite mystring.o (73%)
+[master e225f63] 16 of 72
+ 8 files changed, 12 insertions(+), 7 deletions(-)
+ rename .array.c.swp => .mystring.c.swp (79%)
+ rewrite mystring.o (74%)
+[master 1cf7412] 16 of 72
+ 4 files changed, 7 insertions(+), 1 deletion(-)
+[master 8524d11] 16 of 72
+ 7 files changed, 6 insertions(+), 4 deletions(-)
+[master c11d15f] 16 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master 496d4ab] 13 of 72
+ 8 files changed, 10 insertions(+), 5 deletions(-)
+ rewrite mystring.o (64%)
+[master 90aa8b8] 13 of 72
+ 7 files changed, 13 insertions(+), 5 deletions(-)
+[master e415d46] 13 of 72
+ 7 files changed, 6 insertions(+), 2 deletions(-)
+[master 6381cf7] 13 of 72
+ 7 files changed, 9 insertions(+), 3 deletions(-)
+[master 95aaf7a] 13 of 72
+ 5 files changed, 7 insertions(+), 3 deletions(-)
+[master 15d52cb] 13 of 72
+ 7 files changed, 9 insertions(+), 5 deletions(-)
+[master 467d1d2] 13 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master 5f95e8a] 16 of 72
+ 8 files changed, 7 insertions(+), 3 deletions(-)
+[master d09c6df] 16 of 72
+ 7 files changed, 13 insertions(+), 6 deletions(-)
+ rewrite mystring.o (64%)
+[master 1eeeeac] 16 of 72
+ 7 files changed, 7 insertions(+), 2 deletions(-)
+[master 651948a] 16 of 72
+ 7 files changed, 12 insertions(+), 7 deletions(-)
+ rewrite mystring.o (79%)
+[master 0f9c741] 13 of 72
+ 8 files changed, 15 insertions(+), 7 deletions(-)
+ rewrite mystring.o (64%)
+[master aa59b2a] 13 of 72
+ 7 files changed, 7 insertions(+), 3 deletions(-)
+[master 451be34] 10 of 72
+ 9 files changed, 11 insertions(+), 4 deletions(-)
+[master e661820] 10 of 72
+ 7 files changed, 8 insertions(+), 2 deletions(-)
+[master eb3cffd] 10 of 72
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 5bd94f3] 30 of 72
+ 7 files changed, 5 insertions(+), 3 deletions(-)
+[master 5bd958a] 33 of 72
+ 7 files changed, 19 insertions(+), 2 deletions(-)
+ rename .mystring.c.swp => .LinkedList.c.swp (66%)
+[master f1b6aa4] 33 of 72
+ 6 files changed, 15 insertions(+), 1 deletion(-)
+[master 3ab0b0e] 33 of 72
+ 6 files changed, 6 insertions(+), 2 deletions(-)
+[master a00c0c8] 36 of 72
+ 7 files changed, 27 insertions(+), 5 deletions(-)
+[master 965a3d2] 39 of 72
+ 7 files changed, 17 insertions(+), 3 deletions(-)
+[master 2b7a3b0] 39 of 72
+ 6 files changed, 17 insertions(+), 1 deletion(-)
+[master 2f2c67d] 39 of 72
+ 6 files changed, 7 insertions(+), 1 deletion(-)
+[master 7334a68] 39 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master c45c4d8] 39 of 72
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 .LinkedList.c.swp
+[master 2b1605e] 39 of 72
+ 7 files changed, 10 insertions(+), 18 deletions(-)
+ create mode 100644 .mystring.c.swp
+ rewrite mystring.o (83%)
+[master bd20f80] 39 of 72
+ 5 files changed, 9 insertions(+), 3 deletions(-)
+[master 30c55d9] 22 of 72
+ 9 files changed, 10 insertions(+), 9 deletions(-)
+[master 19cae81] 22 of 72
+ 7 files changed, 9 insertions(+), 2 deletions(-)
+[master ecf9cf6] 42 of 72
+ 7 files changed, 5 insertions(+), 3 deletions(-)
+[master bf83ff5] 45 of 72
+ 8 files changed, 10 insertions(+), 22 deletions(-)
+ rewrite mystring.o (67%)
+[master 792f47d] 45 of 72
+ 7 files changed, 7 insertions(+), 6 deletions(-)
+ create mode 100644 .LinkedList.c.swp
+ delete mode 100644 .mystring.c.swp
+[master 731703d] 45 of 72
+ 6 files changed, 13 insertions(+), 2 deletions(-)
+[master b9a3174] 48 of 72
+ 7 files changed, 16 insertions(+), 2 deletions(-)
+[master d74fc53] 51 of 72
+ 7 files changed, 25 insertions(+), 2 deletions(-)
+[master 41b09a3] 51 of 72
+ 6 files changed, 14 insertions(+), 7 deletions(-)
+ rewrite test_linked_list (75%)
+[master d865b0a] 51 of 72
+ 7 files changed, 37 insertions(+), 2 deletions(-)
+ create mode 100644 file_name
+[master 59b465b] 51 of 72
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+[master 52b8b1b] 51 of 72
+ 6 files changed, 6 insertions(+), 2 deletions(-)
+[master f5f8f39] 51 of 72
+ 4 files changed, 5 insertions(+), 31 deletions(-)
+ delete mode 100644 file_name
+[master 871242e] 51 of 72
+ 6 files changed, 6 insertions(+), 6 deletions(-)
+[master fec7693] 51 of 72
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+[master 51d26c1] 54 of 72
+ 7 files changed, 11 insertions(+), 4 deletions(-)
+[master 38196f1] 54 of 72
+ 6 files changed, 11 insertions(+), 1 deletion(-)
+[master 8732a0b] 54 of 72
+ 6 files changed, 12 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (68%)
+[master 61aa05d] 54 of 72
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+[master 8796ffd] 54 of 72
+ 6 files changed, 10 insertions(+), 4 deletions(-)
+ delete mode 100644 .LinkedList.c.swp
+[master c7f5775] 57 of 72
+ 6 files changed, 14 insertions(+), 7 deletions(-)
+ rewrite test_linked_list (72%)
+[master 9608e77] 60 of 72
+ 6 files changed, 50 insertions(+), 2 deletions(-)
+[master 4b60f30] 60 of 72
+ 5 files changed, 5 insertions(+), 4 deletions(-)
+[master 0174349] 63 of 72
+ 8 files changed, 25 insertions(+), 15 deletions(-)
+ create mode 100644 .array.c.swp
+[master 57047fd] 63 of 72
+ 5 files changed, 10 insertions(+), 5 deletions(-)
+[master b77c038] 46 of 72
+ 8 files changed, 15 insertions(+), 6 deletions(-)
+ rename .array.c.swp => .mystring.c.swp (80%)
+ rewrite mystring.o (80%)
+[master a121cdb] 63 of 72
+ 8 files changed, 11 insertions(+), 6 deletions(-)
+ rewrite mystring.o (83%)
+[master ac0166e] 43 of 72
+ 8 files changed, 9 insertions(+), 3 deletions(-)
+ rewrite mystring.o (83%)
+[master 3184b28] 63 of 72
+ 8 files changed, 11 insertions(+), 7 deletions(-)
+ rewrite mystring.o (70%)
+[master 5984a0e] 63 of 72
+ 7 files changed, 7 insertions(+), 2 deletions(-)
+[master 3918b99] 63 of 72
+ 7 files changed, 11 insertions(+), 4 deletions(-)
+ rewrite mystring.o (82%)
+[master dcfdbc6] 43 of 72
+ 8 files changed, 17 insertions(+), 8 deletions(-)
+ rewrite mystring.o (82%)
+[master 55412eb] 66 of 72
+ 8 files changed, 14 insertions(+), 13 deletions(-)
+ rewrite mystring.o (86%)
+[master 3833d51] 69 of 72
+ 7 files changed, 54 insertions(+), 4 deletions(-)
+ rename .mystring.c.swp => .LinkedList.c.swp (55%)
+ rewrite test_linked_list (69%)
+[master 000bf2c] 72 of 72
+ 9 files changed, 26 insertions(+), 12 deletions(-)
+ rewrite diff.out (100%)
+[master 3e9c60a] 72 of 100
+ 16 files changed, 619 insertions(+), 2 deletions(-)
+ delete mode 100644 .LinkedList.c.swp
+ create mode 100644 WordTable.c
+ create mode 100644 WordTable.h
+ create mode 100644 sagan.txt
+ create mode 100755 test_word_table
+ create mode 100644 test_word_table.c
+ create mode 100755 test_word_table.org
+ create mode 100644 test_word_table.org.out
+ create mode 100644 test_word_table.out
+[master 5a279ef] 72 of 100
+ 4 files changed, 14 insertions(+), 1 deletion(-)
+ create mode 100644 .WordTable.c.swp
+[master beaa541] 72 of 100
+ 6 files changed, 7 insertions(+), 1 deletion(-)
+[master 3928488] 72 of 100
+ 10 files changed, 31 insertions(+), 3 deletions(-)
+ rewrite test_word_table (67%)
+[master eecfe21] 72 of 100
+ 6 files changed, 10 insertions(+), 4 deletions(-)
+[master 5277f98] 72 of 100
+ 10 files changed, 7 insertions(+), 13 deletions(-)
+[master fd0b677] 80 of 100
+ 7 files changed, 8 insertions(+), 4 deletions(-)
+[master 246afd2] 83 of 103
+ 5 files changed, 7 insertions(+), 1 deletion(-)
+[master ab779a2] 83 of 103
+ 8 files changed, 3083 insertions(+), 16 deletions(-)
+ rewrite test_word_table (73%)
+[master e12d4fc] 83 of 103
+ 8 files changed, 3112 insertions(+), 3102 deletions(-)
+ rewrite diff.out (93%)
+ rewrite test_word_table.out (98%)
+[master ccb9697] 87 of 103
+ 9 files changed, 1381 insertions(+), 3099 deletions(-)
+ rewrite diff.out (94%)
+ rewrite test_word_table.out (99%)
+[master 7e1c78f] 87 of 103
+ 8 files changed, 1737 insertions(+), 3 deletions(-)
+[master 4afa15c] 83 of 103
+ 9 files changed, 3104 insertions(+), 3098 deletions(-)
+ rewrite diff.out (93%)
+ rewrite test_word_table.out (98%)
+[master 65badbe] 91 of 103
+ 9 files changed, 3100 insertions(+), 3094 deletions(-)
+ rewrite diff.out (92%)
+ rewrite test_word_table.out (98%)
+[master f5c9aea] 91 of 103
+ 6 files changed, 11 insertions(+), 8 deletions(-)
+[master f5306da] 91 of 103
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 .WordTable.c.swp
+[master 3501fc0] 91 of 103
+ 4 files changed, 48 insertions(+), 1 deletion(-)
+ create mode 100644 isPalindrom.c
+[master 1e5ceac] 91 of 103
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+[master 5e65619] 91 of 103
+ 4 files changed, 6 insertions(+), 2 deletions(-)

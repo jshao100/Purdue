@@ -1,0 +1,26 @@
+Running test4
+======= List 1 =====
+--- List ---
+val=2
+val=4
+val=1
+val=8
+val=2
+val=15
+======= List 2 =====
+--- List ---
+val=3
+val=5
+val=7
+val=8
+val=1
+val=10
+val=11
+val=12
+val=13
+val=2
+====== Intersection ======
+--- List ---
+val=8
+val=1
+val=2

@@ -1,0 +1,69 @@
+
+
+-------------------------------------------------
+CS240: lab3b . cs240   
+Mon Feb  9 11:04:09 EST 2015
+-------------------------------------------------
+./convert                           : 0   of 3  
+./convert 10                        : 0   of 3  
+./convert 10 10                     : 0   of 3  
+./convert 10 10                     : 0   of 3  
+./convert 10 10 10                  : 0   of 3  
+./convert 16 10 FF                  : 0   of 3  
+./convert 16 10 100                 : 0   of 3  
+./convert 10 8 20                   : 0   of 3  
+./convert 10 2 127                  : 0   of 3  
+./convert 10 16 8191                : 0   of 3  
+./convert 10 25 100077900           : 0   of 3  
+./convert 2 16 100010001111         : 0   of 3  
+./convert 5 10 1234                 : 0   of 3  
+./convert 5 10 123456               : 0   of 3  
+-------------------------------------------------
+CS240: lab3b. cs240 Mon Feb 9 11:04:09 EST 2015  Total:  0 of 42
+
+
+
+-------------------------------------------------
+CS240: lab3b . cs240   
+Mon Feb  9 11:19:55 EST 2015
+-------------------------------------------------
+./convert                           : 0   of 1  
+./convert 10                        : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10 10                  : 0   of 1  
+./convert 16 10 FF                  : 0   of 1  
+./convert 16 10 100                 : 0   of 1  
+./convert 10 8 20                   : 0   of 1  
+./convert 10 2 127                  : 0   of 1  
+./convert 10 16 8191                : 0   of 1  
+./convert 10 25 100077900           : 0   of 1  
+./convert 2 16 100010001111         : 0   of 1  
+./convert 5 10 1234                 : 0   of 1  
+./convert 5 10 123456               : 0   of 1  
+-------------------------------------------------
+CS240: lab3b. cs240 Mon Feb 9 11:19:55 EST 2015  Total:  0 of 14
+
+
+
+-------------------------------------------------
+CS240: lab3b . cs240   
+Mon Feb  9 11:24:28 EST 2015
+-------------------------------------------------
+./convert                           : 0   of 1  
+./convert 10                        : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10 10                  : 0   of 1  
+./convert 16 10 FF                  : 0   of 1  
+./convert 16 10 100                 : 0   of 1  
+./convert 10 8 20                   : 0   of 1  
+./convert 10 2 127                  : 0   of 1  
+./convert 10 16 8191                : 0   of 1  
+./convert 10 25 100077900           : 0   of 1  
+./convert 2 16 100010001111         : 0   of 1  
+./convert 5 10 1234                 : 0   of 1  
+./convert 5 10 123456               : 0   of 1  
+-------------------------------------------------
+CS240: lab3b. cs240 Mon Feb 9 11:24:28 EST 2015  Total:  0 of 14
+

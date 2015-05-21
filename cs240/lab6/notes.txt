@@ -1,0 +1,2 @@
+chmod +x TESTFILE.sh
+run: ./TESTFILE.sh

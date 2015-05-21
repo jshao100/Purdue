@@ -1,0 +1,14 @@
+./convert                           : 0   of 1  
+./convert 10                        : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10                     : 0   of 1  
+./convert 10 10 10                  : 0   of 1  
+./convert 16 10 FF                  : 0   of 1  
+./convert 16 10 100                 : 0   of 1  
+./convert 10 8 20                   : 0   of 1  
+./convert 10 2 127                  : 0   of 1  
+./convert 10 16 8191                : 0   of 1  
+./convert 10 25 100077900           : 0   of 1  
+./convert 2 16 100010001111         : 0   of 1  
+./convert 5 10 1234                 : 0   of 1  
+./convert 5 10 123456               : 0   of 1  
